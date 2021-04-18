@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="utf-8" />
+<title>مركز الأردن لجراحة الليزر</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="icon" href="images/icon.ico" />
+<meta name="keywords" content="">
+<link rel="stylesheet" href="css/ar-style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all" />
+<link href="css/div.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Facebook Pixel Code -->
+<script>
+   !function(f,b,e,v,n,t,s)
+   {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+   n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+   if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+   n.queue=[];t=b.createElement(e);t.async=!0;
+   t.src=v;s=b.getElementsByTagName(e)[0];
+   s.parentNode.insertBefore(t,s)}(window,document,'script',
+   'https://connect.facebook.net/en_US/fbevents.js');
+   fbq('init', '421091741977602'); 
+   fbq('track', 'PageView');
+</script>
+<noscript>
+   <img height="1" width="1" src="https://www.facebook.com/tr?id=421091741977602&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"> </script>
+<script type="text/javascript" src="js/div.js"></script>
+<!-- video player  -->
+<link href="http://vjs.zencdn.net/4.0/video-js.css" rel="stylesheet">
+<script src="http://vjs.zencdn.net/4.0/video.js"></script>
+
+<!--[if lt IE 9]>
+	<script src="js/modernizr.custom.js"></script>
+<![endif]-->
+</head>
+<body>
+	<!-- wrapper -->
+	<div  id="wrapper">
+		<!-- header -->
+		<header>
+			<div class="shell">
+				<img id="logo" src="images/logo.png" />
+				<div id="title">
+				<h1>JLSC</h1>
+				<p style="font-size: 14px;color:rgb(91, 69, 59);">Jordan Laser Surgical Center</p>
+				<p style="font-size: 16px;"><span style="font-size:18px;"><font color="#5b453b">مركز الأردن لجراحة الليزر</font></span></p>
+				</div>
+				<div id="info">
+				<p style="line-height: 1.3em; text-align: left; direction:ltr;">
+				<span style="line-height: 1.3em;"><span style="direction:ltr;">+962 79 684 8946</span>&nbsp; : إتصل بنا</span><br />
+				<span style="line-height: 1.3em;"><span style="direction:ltr;">+962 777 999 115</span></span>
+				</p>
+				<div style="background:rgb(230, 100, 0); width:150px; height:2px; float:left; margin:15px auto 0 auto">
+				<div style="background:rgb(230, 100, 0); width:12px; height:12px; float:left; margin:0 auto;"></div>
+				</div>
+				<br /><p style="line-height: 1.3em; text-align: left; font-size:16px; margin-left:20px;"><a href="index.php.html" style="margin-left:20px;"><b>English</b></a><span>العربية</span></p>
+				</div>
+			</div>	
+		</header>
+		<!-- end of header -->
+		<!-- navigation -->
+		<nav id="navigation">
+			<ul>
+					<li class="first" ><a href="ar-index.php.html"><span></span>الرئيسية</a></li>
+					<li ><a href="ar-about.php.html"><span class="bottom-arr"></span>من نحن</a></li>
+					<li ><a href="ar-vv.php.html"><span class="bottom-arr"></span>دوالي الساقين</a></li>
+					<li id="active"><a href="ar-treatments.php.html"><span class="bottom-arr"></span>العلاجات</a></li>
+					<li ><a href="ar-gallery.php.html"><span class="bottom-arr"></span>الصور</a></li>
+					<li ><a href="ar-videos.php.html"><span class="bottom-arr"></span>الفيديو</a></li>
+					<li ><a href="ar-press.php.html"><span class="bottom-arr"></span>المقالات</a></li>
+					<li class="last" ><a href="https://jlsc-jo.com/ar-contact.php"><span class="bottom-arr"></span>الاتصال بنا</a></li>
+				</ul>
+				
+		</nav>
+		<!-- end of navigation --><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+var slide = 0;
+$("#links").click(function(){
+   if(slide == 0){$(".links").slideUp();slide=1;document.getElementById("links").innerHTML = '+ علاجات دوالي الساقين';}
+   else{$(".links").slideDown();slide=0;document.getElementById("links").innerHTML = '- علاجات دوالي الساقين';}
+  });
+  $(".d1").click(function(){
+   $("#d1").fadeIn(1500); $("#d2").hide(0001); $("#t1").hide(0001); $("#t2").hide(0001); $("#t3").hide(0001); $("#t4").hide(0001); $("#t5").hide(0001); $("#t6").hide(0001);
+  });
+  $(".d2").click(function(){
+   $("#d2").fadeIn(1500); $("#d1").hide(0001); $("#t1").hide(0001); $("#t2").hide(0001); $("#t3").hide(0001); $("#t4").hide(0001); $("#t5").hide(0001);
+  });
+  $(".t1").click(function(){
+   $("#t1").fadeIn(1500); $("#d1").hide(0001); $("#d2").hide(0001); $("#t2").hide(0001); $("#t3").hide(0001); $("#t4").hide(0001); $("#t5").hide(0001); $("#t6").hide(0001);
+  });
+  $(".t2").click(function(){
+   $("#t2").fadeIn(1500); $("#d1").hide(0001); $("#d2").hide(0001); $("#t1").hide(0001); $("#t3").hide(0001); $("#t4").hide(0001); $("#t5").hide(0001); $("#t6").hide(0001);
+  });
+  $(".t3").click(function(){
+   $("#t3").fadeIn(1500); $("#d1").hide(0001); $("#d2").hide(0001); $("#t1").hide(0001); $("#t2").hide(0001); $("#t4").hide(0001); $("#t5").hide(0001); $("#t6").hide(0001);
+  });
+  $(".t4").click(function(){
+   $("#t4").fadeIn(1500); $("#d1").hide(0001); $("#d2").hide(0001); $("#t1").hide(0001); $("#t2").hide(0001); $("#t3").hide(0001); $("#t5").hide(0001); $("#t6").hide(0001);
+  });
+  $(".t5").click(function(){
+   $("#t5").fadeIn(1500); $("#d1").hide(0001); $("#d2").hide(0001); $("#t1").hide(0001); $("#t2").hide(0001); $("#t3").hide(0001); $("#t4").hide(0001); $("#t6").hide(0001);
+  });
+  $(".t6").click(function(){
+   $("#t6").fadeIn(1500); $("#d1").hide(0001); $("#d2").hide(0001); $("#t1").hide(0001); $("#t2").hide(0001); $("#t3").hide(0001); $("#t4").hide(0001); $("#t5").hide(0001);
+  });
+});
+</script>
+<style>
+#vv a{color:rgb(91, 69, 59);font-size:14px; height:50px; padding:10px; border-bottom:2px solid #fff; border-with:100%;}
+#vv a:hover{text-decoration:none; transition:0.5s; color:rgb(180, 120, 100);}
+#vv #link{text-align:right;direction:rtl;}
+.div h1{font-size:24px;padding:10px;direction:rtl;}
+.div p{padding:10px;direction:rtl;}
+.div img{padding:10px;}
+.div ul{padding-right:25px;direction:rtl;}
+.div h2{padding:10px;font-size:20px; color:#444;font-weight:bold;direction:rtl;}
+.div h3{padding:10px;font-size:16px; color:#444;font-weight:bold;direction:rtl;}
+.div {color:rgb(160, 75, 93);font-size:13px; display:none; float:right; width:780px;margin-top:-30px;}
+li{direction:rtl;text-align:right;}
+</style>
+<div id="background" style="margin-bottom:50px;direction:rtl;">
+<div id="vv" style="background:rgb(238, 224, 212); float:right;">
+<div id="link" style="margin-top:15px;background:rgb(238, 224, 212);">
+<a href="ar-vv.php.html#" class="d1">ما هو دوالي الساقين</a><br /><br />
+<a href="ar-vv.php.html#" class="d2">أنواع دوالي الساقين</a><br /><br />
+<a href="ar-vv.php.html#" id="links">- علاجات دوالي الساقين</a><br />
+<hr style="height: 10px;border: 0;">
+</div>
+<div class="links" style="background:#fff;text-align:right;border:1px solid rgb(238, 224, 212);margin-top: -1px;">
+<hr style="height: 10px;border: 0;">
+<a href="ar-vv.php.html#" class="t1">* [الفحص و التقييم]</a><br /><br />
+<a href="ar-vv.php.html#" class="t2">* [العلاج الجراحي]</a><br /><br />
+<a href="ar-vv.php.html#" class="t3">* [علاج الدوالي بالتصليب]</a><br /><br />
+<a href="ar-vv.php.html#" class="t4">* [العلاج بالليزر داخل الوريد]</a><br /><br />
+<a href="ar-vv.php.html#" class="t5">* [العلاج بالليزر الداخلي حول الوريد]</a><br /><br />
+<a href="ar-vv.php.html#" class="t6">* [العلاج بالليزر الخارجي]</a><br /><br />
+</div>
+</div>
+</div>
+<br />
+<div id="d1" class="div" style="display:block;float:right;width:780px;">
+<h1>دوالي الساقين والدوالي العنكبوتية</h1><br />
+<p style="font-size:16px; font-weight:bold;">الدوالي هي أوردة متوسعة و ملتوية. الأوردة المتضررة بالعادة هي تلك التي في الساقين والقدمين. و من أشكالها الدوالي العنكبوتية.</p>
+<br />
+<p style="font-size:16px; font-weight:bold;">في كثير من الحالات تكون دوالي الساقين و الدوالي العنكبوتية هي مجرد مشكلة جمالية ولكن في حالات أخرى يمكن أن تسبب الدوالي بالألم والانزعاج. أحيانا تؤدي الدوالي إلى مشاكل أكثر خطورة لذلك يجب الحصول على تقييم صحيح و استشارة من طبيب مختص لمعرفة سبب المشكلة و معالجتها. قد يشمل العلاج تدابير الرعاية الذاتية أو إجراءات من قبل الطبيب لإغلاق أو إزالة الأوردة</p>
+<br /><br />
+<h2>ما هي دوالي الساقين ؟</h2><br />
+<img src="images/3ef490_84f17b0d217c4fe2a4e102513d0b0f7d.jpg" style="float:left;" />
+
+<p>
+الدوالي هي عروق ( أوردة) متوسعة يمكن أن تكون ذات لون أزرق، أحمر، أو بنفس لون الجلد. غالبا ما تبدو كالجبال وتكون ملتوية ومنتفخة. قد تظهر بارزة عن سطح الجلد. غالبا ما تتواجد الدوالي على الفخذين وعلى بطة الرجل، أو داخل الساق.
+<br /></br />
+دوالي الساقين مماثلة للدوالي العنكبوتية إلا أنهما مختلفتين طبياً . وتعتبر الدوالي شكل أكثر حدية لأشكال القصور الوريدي من الدوالي العنكبوتية .
+<br /><br />
+تحدث الدوالي بسبب الصمامات الضعيفة والتالفة داخل الأوعية الدموية التي هي غير قادرة على توجيه الدم الى القلب بشكل صحيحي دون رجوع عكسي للدم. عندما تصبح الصمامات ضعيفة، يمكن أن يتدفق الدم الى الوراء من خلال الأوردة ويتجمع في الساقين.
+</p>
+
+<h3>هناك العديد من العوامل التي تزيد من خطر الإصابة بالدوالي، مثل:</h3>
+<ul>
+<li>العمر </li>
+<li>إصابة أكثر من شخص في العائلة بدوالي الساقين</li>
+<li>التغيرات الهرمونية، مثل انقطاع الطمث</li>
+<li>الحمل</li>
+<li>البدانة</li>
+<li>زيادة التعرض لأشعة الشمس</li>
+</ul>
+
+<p>وغالبا ما يصحب دوالي الساقين مجموعة من الأعراض و التي يمكن أن تصبح مؤلمة إذا تركت دون علاج.</p>
+<h3>أعراض الدوالي :</h3>
+<ul>
+<li>ألم من خفيف الى شديد</li>
+<li>خفقان ونبض في القدم</li>
+<li>تشنج  في الساق</li>
+<li>تورم</li>
+<li>ثقل في الساق</li>
+<li>طفح الجلدي أو أي شكل آخر من تهيج الجلد</li>
+<li>متلازمة تململ الساقين</li>
+<li>اسوداد في الجلد</li>
+</ul>
+
+<p>هذه الأعراض يمكن أن تطور وأن تصبح أكثر حدة بمرور الوقت. إذا تركت دون علاج، يمكن أن الدوالي تزيد من خطر الجلطة، جلطات الدم، والنزيف والتقرحات الجلدية.</p>
+<br /><br />
+
+<h2>ما هي الدوالي العنكبوتية؟</h2>
+<img src="images/3ef490_4c9e378d96c24b98a46beeacd7738b9f.jpg" style="float:left;" />
+<p>
+الدوالي العنكبوتية هي مثل دوالي الساقين ولكن أصغر حجماً كما أنها أقرب إلى سطح الجلد من دوالي الساقين. يمكن أن تبدو كخطوط متعرجة. ويمكن العثور عليها على الساقين والوجه ويمكن أن تغطي إما منطقة صغيرة جدا أو كبيرة جدا من الجلد.
+</p>
+<p>هذا النوع من الدوالي يمكن أن يصيب أي من الأطراف في الجسم، ولكن هو أكثر شيوعا في الساقين. ومن المعروف أيضا بأن الدوالي العنكبوتية أو توسع الشعيرات يصيب حوالي 30 في المئة من البالغين، معظمهم من النساء.</p>
+<p>هناك عدد من العوامل التي تزيد من خطر إصابتك بالدوالي العنكبوتية وهي ذاتها العوامل التي تزيد من  فرصة الإصابة بالدوالي بشكل عام و المذكورة أعلاه.</p>
+<p>على عكس دوالي الساقين ، الدوالي العنكبوتية لا تنتفخ او تبرز عن سطح الجلد. قد تظهر الأوردة بشكل خافت و من دون لون أو ذات لون أزرق أو أحمر أو أرجواني.</p>
+
+<h3>متى يجب أن أحصل على استشارة بخصوص الدوالي؟</h3>
+
+<p>يجب عليك مراجعة الطبيب حول الدوالي إذا:
+أصبحت منتفخة أو مؤلمة عند اللمس 
+هناك تقرحات أو طفح جلدي على الساق أو بالقرب من الكاحل
+الجلد على الكاحل والساق قد أصبح سميك وتغير لونه
+حدوث نزيف من الدوالي
+أعراض ساقك تتداخل مع الأنشطة اليومية الخاصة بك
+منظر الأوردة يسبب لك الضيق من الناحية الجمالية</p>
+<br />
+<p>
+إذا كنت تواجه الألم، حتى لو كان مجرد وجع خفيف، لا تتردد في الحصول على مساعدة. قم بزيارة مركزنا  للحصول على التشخيص اللازم من قبل الدكتور إبراهيم وتعرف على العلاج الأكثر مناسبة لحالتك.
+</p>
+</div>
+
+<div id="d2" class="div">
+<h1>هناك العديد من الأنواع و الأشكال لدوالي الساقين و الدوالي العنكبوتية</h1>
+<p>هنا تستطيع التعرف على البعض منها:</p>
+<div style="float:left;">
+<div style="float:left; padding:10px; text-align:center;">
+<img src="images/3ef490_6b9202ebc87d4cedbe246c889a0d8cd3.jpg" style="width: 230px; height: 230px;padding:0;" />
+</div>
+<div style="float:left; padding:10px; text-align:center;">
+<img src="images/3ef490_47921a0f227e4e6c805f7c41b616c25f.png" style="width: 230px; height: 230px;padding:0;" />
+</div>
+<div style="float:left; padding:10px; text-align:center;">
+<img src="images/3ef490_cc6720e46d6b49499b69b2629af2217b.jpg" style="width: 230px; height: 230px;padding:0;" />
+</div>
+<div style="float:left; padding:10px; text-align:center;">
+<img src="images/3ef490_ebc34d9b7a974aaf836a1d29fc1b3401.jpg" style="width: 230px; height: 230px;padding:0;" />
+</div>
+<div style="float:left; padding:10px; text-align:center;">
+<img src="images/3ef490_9af8a4dffb784327bae418bff54841c4.png" style="width: 230px; height: 230px;padding:0;" />
+</div>
+<div style="float:left; padding:10px; text-align:center;">
+<img src="images/3ef490_b868f328c0784a3bb8832c3ce94c6d64.png" style="width: 230px; height: 230px;padding:0;" />
+</div>
+<div style="float:left; padding:10px; text-align:center;">
+<img src="images/3ef490_84f17b0d217c4fe2a4e102513d0b0f7d.jpg" style="width: 230px; height: 230px;padding:0;" />
+</div>
+<div style="float:left; padding:10px; text-align:center;">
+<img src="images/3ef490_3c64431690ad4daca641c081905bb876.jpg" style="width: 230px; height: 230px;padding:0;" />
+</div>
+<div style="float:left; padding:10px; text-align:center;">
+<img src="images/3ef490_66d95a81db26428d95ed0454f2376f5c.png" style="width: 230px; height: 230px;padding:0;" />
+</div>
+</div>
+</div>
+
+<div id="t1" class="div">
+<img src="images/3ef490_429e60013e3b4a2dba929fe84d26b4ed.jpg" style="float:left;" />
+<font style="font-size:30px; font-weight:bold;">التقييم و التشخيص</font><br /><br />
+<font  style="font-size:18px; font-weight:bold;">من المهم جدا أن يكون الحصول على التقييم الصحيح من أجل اختيار طريقة العلاج المناسب لحالتك.</font>
+<br />
+<p>
+سيتألف هذا التقييم من:
+<li>تاريخ مفصل
+<li>الفحص السريري
+<li>الموجات فوق الصوتية المزدوجة - الدوبلار الملون
+</p>
+<p>
+الموجات فوق الصوتية  - الدوبلار الملون -  هو جهاز يستخدم الموجات الصوتية لإعطاء صور للأوعية الدموية واتجاه تدفق الدم ، ويسمح للطبيب أن يرى بالضبط ما يجري في العروق والأوردة العميقة والسطحية ويظهر أي تدفق للدم إلى الأسفل  أي بمعنى ارتداد عكسي غير طبيعي للدم . حل هذا التقييم محل الاختبارات القديمة المستخدمة سابقاً. أنه يوفر خريطة مفصلة للعروق والأوردة ويسمح لعلاج أكثر دقة.</p>
+الفحص بالدوبلار الملون الصوتي يستغرق حوالي 30 دقيقة لكل ساق. الإجراء غير مؤلم وليس له آثار جانبية.
+</div>
+
+<div id="t2" class="div">
+<h1>الحلول الجراحية</h1><br />
+<p style="font-size:16px; font-weight:bold;">الجراحة تعمل عن طريق إزالة الدوالي الغير طبيعية تماما بحيث لا يستطيع الدم أن يتدفق من خلالها في الاتجاه المعاكس.</p>
+<p style="font-size:16px; font-weight:bold;">الجراحة تعمل عن طريق إزالة الدوالي الغير طبيعية تماما بحيث لا يستطيع الدم أن يتدفق من خلالها في الاتجاه المعاكس.
+الهدف من الجراحة هو التعامل مع سبب و أساس الدوالي وهو ارتداد الدم في الاتجاه المعاكس لحركته الطبيعية في الوريد . كما أن الجراحة قد تكون من أفضل الحلول للدوالي الكبيرة الحجم .</p>
+<br />
+<img src="images/3ef490_ef2bf840b5a3443289d4421c6aa2f775.jpg" style="float:left;" />
+<h1>سحب الأوردة المتفرعة المتعرجة</h1>
+<p>سحب الوريد هي تقنية جراحية بأقل تدخل جراحي لإزالة الأوردة المتوسعة ذات الحجم المتوسط الى الكبير. يتم تقييم ساقك بداية باستخدام الموجات فوق الصوتية (ultrasound)  و يتم وضع علامات على الوريد باستخدام قلم تحديد خاص بعملية تسمى (mapping) . من ثم يتم اعطاء التخدير الموضعي في موقع الشق لتخدير المنطقة بأكملها. باستخدام مجموعة من الأدوات الخاصة،  يقوم الطبيب يعمل شقوق صغيرة في الجلد لإزالة الأوردة المتضررة. الشقوق صغيرة بحيث لا تحتاج الى غرز  وبتم إزلة الوريد المتضرر من خلال هذه الشقوق. بعد إزلة الوريد المتوسع ستقوم أوردة صحية أخرى بمتابعة نقل الدم بدلاً من الوريد الذي تمت ازالته وبالتاي إعادة  تدفق الدم الطبيعي،وبالتالي ينبغي تحسن الأعراض الخاصة بك بشكل ملحوظ</p>
+<p>قطع الوريد يقدم إزالة الوريد بشكل دائم من دون أتلون الجلد أو ظهور قرحة</p>
+
+<br />
+<h1>نزع الوريد
+(Vein Stripping)</h1>
+<p>نزع الوريد ويشمل هذا الإجراء إزالة الوريد الطويل من خلال شقوق صغيرة. هذا الإجراء يحتاج الى التخدير العام.  إزالة الوريد لا يؤثر سلبا على الدورة الدموية في الساق بسبب قيام الأوردة العميقة في الساق بمتابعة تدفق الدم.</p>
+<img src="images/3ef490_e0c2176555744b23b8e3c3ca005bccc2.jpg" style="float:left;" />
+<div style="float:left;">
+<h1>ما تحتاج لمعرفته</h1>
+<p>في حالة رجوعك الى المنزل في نفس يوم العملية فلن تكون قادر على القيادة بل  ستحتاج إلى تواجد شخص على الأقل لإيصالك الى المنزل والبقاء معك و الاهتمام بك .المعظم يكونون قاردين على متابعة حياتهم اليومية خلال أيام قليلة ولكن إن كان عملم يتضمن الوقوف أو يحتاج الى نشاط بدني كبير فمن الأفضل لك ملازمة المنزل لعشرة أيام أو أسبوعين . نتوقع أن يعود لجميع الى الأنشطة الرياضية  والبدنية في غضون 6 أسابيع. من الطبيعي أن يكون لديك بعض الرضوض والشعور بعدم الراحة  لعدة أسابيع. كما أن احتمالية حصول ندب صغيرة هو عموماً في الحد الأدنى.</p>
+</div>
+</div>
+
+<div id="t3" class="div">
+<h1>Sclerotherapy  علاج الدوالي بالتصليب</h1>
+<p style="font-size:16px; font-weight:bold;">علاج الدوالي بالتصليب هو إجراء طبي آمن يتخلله الحد الأدنى من التدخل الطبي الجراحي، وذو فعالية عالية جداً لعلاج وإزالة الدوالي والعروق العنكبوتية .</p>
+<img src="images/3ef490_a6ea80ed75bd4e9d98f0d2d9e0b5b5c0.png" style="float:left;" />
+<p style="font-size:14px; font-weight:bold;">الإجراء الطبي المتبع</p>
+<p>يستخدم العلاج بالتصليب إبر صغيرة لحقن مادة كيماوية سائلة أو رغوية مباشرة في الأوردة السطحية المرئية. مما يؤدي الى تهيج بطانة الأوعية الدموية ، الامر الذي يعمل على التصاق البطانة ببعضها البعض و على تجلط الدم داخلها مما يتسبب في معالجة هذه الأوردة  فتتقلص و تختفي. غالبا ما يتطلب العلاج جلسات متعددة للحصول على نتائج كاملة، ولكن بمجرد اختفاء الأوردة لمرة واحدة فإنها لن تعود الى الظهور .</p>
+<br />
+<p style="font-size:14px; font-weight:bold;">المرشحين لهذا العلاج</p>
+<p>قبل البدء بالعلاج فسيكون لديك موعد استشاري أولي مع الدكتور إبراهيم جعافرة والذي سيقرر إذا كنت مرشحا جيدا لهذا الإجراء.
+المرأة الحامل ليست من المرشحين لهذا العلاج الى أن تضع مولودها ولكن قد تكون هناك حاجة إلى احتياطات معينة للسيطرة على المشكلة.
+عموما لا تدخل الأوردة التي يحتمل الحاجة اليها في المستقبل لمتابعة الدورة الدموية  في هذا العلاج الا في حالة التأكد من عدم الجدوى منها  .</p>
+<br />
+<img src="images/3ef490_6f54049b307f4e8a85c3b4068a8e67a7.jpg" style="float:left;" />
+<p style="font-size:14px; font-weight:bold;">ما يجب القيام به قبل البدء بالعلاج بالتصليب</p>
+<p>يجب تجنب بعض الأدوية والتي يحددها طبيبك ( والأعشاب ، والمكملات الغذائية ) تتخذونها. أحياناً تكون هناك حاجة إلى أخذ المضادات الحيوية قبل العلاج  ،  . ينبغي عدم استخدام اي مرطب أو محلول على الساقين قبل الإجراء.
+بعض الأطباء يوصي بتجنب الأسبرين والايبوبروفين ( مثل أدفيل ، موترين ، و نوبرين ) أو غيرها من الأدوية المضادة للالتهابات  قبل 48-72 ساعة من العلاج بالتصليب.</p>
+<br />
+<p style="font-size:14px; font-weight:bold;">طرق التصليب بالحقن</p>
+<p>الحقن المباشر للاوردة المرئية بالعين المجردة.
+الحقن بمساعدة الكاشف الضوئي.
+الحقن الموجه بالدوبلار.
+الحقن السائل و الحقن الرغوي.</p>
+<p style="font-size:14px; font-weight:bold;">ما يجب معرفته</p>
+<p>العلاج بالتصليب هو إجراء غير مؤلم و سهل ولكن قد يسبب بعض الانزعاج لدقيقة أو اثنتين ، وخصوصا عندما يتم حقن أوردة أكبر حجماً. الإجراء نفسه يستغرق حوالي 30 دقيقةولكت بعتمد على الحالة .
+عدد الأوردة التي تحقن في الجلسة الواحدة تختلف ، و يعتمد على حجم وموقع الأوردة ، وكذلك الحالة الطبية العامة للمريض .
+يجب ارتداء الجوارب الضاغطة بعد الإجراء و عدم المشاركة في النشاطات البدنية  لبضعة أيام ، باستثناء المشي الذي يعتبر ضرورياً للمساعدة على الشفاء الكامل .</p>
+<br />
+<img src="images/3ef490_6d925970acf6477d99b5c19f17a463c0.jpg" style="float:left;" />
+<p style="font-size:14px; font-weight:bold;">الآثار الجانبية للعلاج بالتصليب</p>
+<p>قد تواجه بعض الآثار الجانبية بعد العلاج بالتصليب . هناك آثار أكثر اعتدالا ، مثل الحكة ، والتي يمكن أن تستمر ل مدة يوم أو يومين بعد العملية. أيضا ، قد تلاحظ وجود أثار ،ومناطق حمراء في موقع الحقن . هذه يجب أن تختفي في غضون أيام قليلة . قد تحدث كدمات أيضا حول مكان الحقن و يمكن أن تستمر عدة أيام أو أسابيع.</p>
+<p>
+غيرها من الآثار الجانبية  تشمل:<br />
+<li>قد تصبح الأوردة الكبيرة التي تم حقنها يابسة بعض الشيء و متكتلة ، وربما تتطلب عدة أشهر لتذوب وتتلاشى .
+<li>ظهور خطوط بنية اللون أو بقع  في موقع الوريد. في معظم الحالات ، فإنها تختفي في غضون ثلاثة إلى ستة أشهر ، لكن بعضها قد يكون داءم الا ان ذلك قليل الحدوث.
+<li>ظهور أوعية دموية صغيرة جديدةفي موقع العلاج بالتصليب . ويمكن لهذه الأوردة الصغيرة أن تظهربعد أيام أو أسابيع من العملية ، ولكن تتلاشى في غضون ثلاثة إلى اثني عشر شهرا ويمكن تفاديها اذا ازيلت الجلطات السطحية في هذه الأوردة.
+</p>
+</div>
+
+<div id="t4" class="div">
+<h1>العلاج بالليزر داخل الوريد ( الجراحة بالليزر ) (Endovenous Laser Treatment)</h1>
+<p style="font-size:16px; font-weight:bold;">العلاج بالليزر داخل الوريد هو علاج مناسب للدوالي ذات الحجم الكبير. هو إجراء غير جراحي مبتكر ، يستخدم العلاج الليزر لإنهاء المشكلة بشكل آمن وفعال ، وبالتالي القضاء على المشكلة من جذورها .</p>
+<br />
+<img src="images/3ef490_3ea1d725b77a4fda85db7640f136f9e3.jpg" style="float:left;" />
+<p style="font-size:14px; font-weight:bold;">كيفية تنفيذ الإجراء</p>
+<p>يتم تنفيذ هذه النوع من العلاجات بحيث يكون المريض مستلقي.  يتم تخدير الوريد باستخدام حقن مخدر موضعي . يتم وضع ألياف الليزر في وقت لاحق في مركز الوريد تبعاً لصورة الموجات فوق الصوتية مما يؤدي إلى تسخين  الجزء الداخلي من الوريد  فيغلق الوريد على نفسه  . يتبع  هذا العلاج استخدام الحقن بإرشاد الموجات فوق الصوتية أو الليزر الخارجي والداخلي من حول الأوردة لعلاج أي الدوالي المتبقية والتي تكون بالعادة تفرعات صغيرة . الإجراء عادة ما يستغرق 60 دقيقة.</p>
+<br />
+<br />
+<p style="font-size:14px; font-weight:bold;">اجراءات ما بعد العلاج</p>
+<p>بعد كل جلسة علاج ستكون هناك حاجة لارتداء الجوارب الضاغطة الخاصة لمساعدة الوريد على الانغلاق على نفسه . يجب الاستمرار في ارتداؤه لمدة 3-4 أيام بشكل متواصل . من ثم يجب ارتداؤها لمدة 7-10 أيام أخرى ، ولكن خلال هذا الوقت يمكن عدم ارتداؤه عند الاستحمام أو في السرير خلال فترة الليل. من الضروري المشي يوميا لمدة 45-60 دقيقة خلال ارتداء الجوارب الضاغطة  .</p>
+<p style="font-size:14px; font-weight:bold;">الآثار الجانبية</p>
+<p>لهذا العلاج بالليزر عدد من الآثار الجانبية المحتملة بما في ذلك آلام الساقين البسيط ، وتصبغ ، ظهور الأوردة العنكبوتية ، والكدمات ، وأمراض الحساسية</p>
+<p style="font-size:14px; font-weight:bold;">ما عليك معرفته</p>
+<p>يمكنك بعد ذلك العودة إلى الأنشطة المعتادة الخاصة بك مع الحد الأدنى من الراحة . من الطبيعي أن تشعر بما يشبه بالشد داخل الرجل بشكل طفيف لبضعة أيام . للحصول على أفضل النتائج،  نوصي ارتداء جوارب ضاغطة خلال النهار في الأسبوع الأول بعد العلاج . وقد ثبتت فعالية الإجراء بحيث وصلت 98 ٪</p>
+
+<video id="my_video" class="video-js vjs-default-skin" controls preload="auto" width="780" height="580" poster="https://jlsc-jo.com/images/videos/vvv.jpg" data-setup="{}">
+<source src="https://jlsc-jo.com/images/videos/vvv.flv" type='video/flv'>
+</video>
+<br />
+</div>
+
+<div id="t5" class="div">
+<h1>العلاج بالليزر الداخلي حول الوريد</h1>
+<p style="font-size:16px; font-weight:bold;">هذا العلاج يستعمل لإزالة الدوالي العنكبوتيه من خلال الجلد و إدخال ألياف الليزر تحت الجلد وصولا إلى الأوردة العنكبوتيه و تنشيفها من حولها ويؤدي إلى اختفائها نهايا</p>
+<img src="images/suod.jpg" style="float:right;" />
+</div>
+
+<div id="t6" class="div">
+<img src="images/3ef490_2c23ac2d64784f58944eba938adf89e5.jpg" style="float:left;" />
+
+<h1>العلاج بالليزر</h1>
+<p style="font-size:16px; font-weight:bold;">العلاج بالليزر والنبض الضوئي المكثف (ILP) يدمر الأوردة العنكبوتية الصغيرة والدوالي الصغيرة باستخدام الحرارة. تتسبب الحرارة بتشكيل أنسجة ندبية داخلية تعمل في نهاية المطاف على إغلاق الوريد. بالنسبة لبعض المرضى، هذا بديل رائع عن العلاج بالحقن. قد تشمل الآثار الجانبية الطفيفة في المنطقة المعالجة تلون الجلد  المؤقت .​</p>
+<br />
+<p style="font-size:16px; font-weight:bold;">باستخدام العلاج بالليزر الخارجي تختفي دوالي التفسخات الشعرية نهائياً</p>
+<br />
+<img src="images/Untitled.jpg" style="float:right;" />
+</div>
+
+</div>
+<div id="footer-push"></div>
+</div>
+<!-- end of wrapper -->
+<div id="footer">
+<div class="shell-footer">
+	<div class="footer">
+	<div class="con">
+	<h1>الاتصال بنا</h1>
+	</div>
+	<div class="con">
+	الاردن - عمان - العبدلي - المستشفى الأهلي - الطابق الارضي
+	</div>
+	<div class="con">
+	docibra-1956@hotmail.com
+	</div>
+	<div class="con">
+	موبايل : 962777999115+<br />
+فاكس: 96265656363+
+	</div>
+	</div>
+
+	<div class="footer">
+	<div class="con">
+	<h1>تابعنا على</h1>
+	</div>
+	<div class="con">
+	﻿﻿<a href="https://www.facebook.com/jlsc.jo"><img src="images/fb.png">&nbsp;Facebook</a>
+	</div>
+	<div class="con">
+	﻿﻿<a href="http://www.linkedin.com/"><img src="images/in.png">&nbsp;LinkedInIn</a>
+	</div>
+	<div class="con">
+	﻿﻿<a href="http://jo.jeeran.com/en/p/jordan-laser-surgical-center-jlsc-amman/"><img src="images/jeeran.png">&nbsp;Jeeran</a>
+	</div>
+	</div>
+
+	<div class="footer">
+	<div class="con">
+	<h1>المزيد حول المركز</h1>
+	</div>
+	<div class="con">
+	<img src="images/3ef490_999ca6acdfcf4167a37edfdb12867671.jpg" style="background-color:transparent;" width="120" />
+	<img src="images/3ef490_3b9a8573e977499d8386f5f6413e45a9.png" style="background-color:transparent;" />
+	</div>
+	</div>
+	<p class="copy">٢٠١٨ مركز الأردن لجراحة الليزر. جميع الحقوق محفوظة ©
+	<iframe src="https://www.facebook.com/plugins/follow?href=https%3A%2F%2Fwww.facebook.com%2FMeMo.Pro&amp;layout=standard&amp;show_faces=true&amp;colorscheme=light&amp;width=65&amp;height=80" scrolling="no" frameborder="0" style="border:none;float:right; width:65px; height:20px;margin-top:-20px;" allowTransparency="true"></iframe></a>
+</p>
+</div>
+</div>
+
+</body>
+</html>

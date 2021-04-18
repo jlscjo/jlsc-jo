@@ -1,0 +1,25 @@
+.flex-container a:active,
+.flexslider a:active {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+.flexslider .slides > li {display: none;}
+.flex-pauseplay span {text-transform: capitalize;}
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+html[xmlns] .slides {display: block;} 
+.no-js .slides > li:first-child {display: block;}
+.flex-caption {background:none; -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); zoom: 1;}
+.flex-direction-nav, .flex-control-nav { position: relative; z-index: 10000000; }
+.flex-direction-nav li a {  width: 40px; height: 66px; margin: 0 0px 0 0; display: block; background: url(https://jlsc-jo.com/images/slider-arr.png) no-repeat 0 0; position: absolute; top: -188px; cursor: pointer; text-indent: -9999px; z-index: 1200;}
+.flex-direction-nav li .next { background-position: 0 bottom; right: 1px; }
+.flex-direction-nav li .prev { left: 0px; }
+.flex-direction-nav li a.prev:hover { background-position: right 0 ; }
+.flex-direction-nav li a.next:hover { background-position: right bottom; }
+.flex-direction-nav li .disabled {opacity: .3; filter:alpha(opacity=30); cursor: default;}
+.flex-control-nav { position: absolute; top: 0px; left: 0; height: 12px; padding: 14px 20px 14px 17px; line-height: 40px; background: url(https://jlsc-jo.com/images/control-nav-bg.png) repeat 0 0; border-radius: 0px 0px 3px 0px; -moz-border-radius: 0px 0px 3px 0px; -webkit-border-radius: 0px 0px 3px 0px; -o-border-radius: 0px 0px 3px 0px;}
+.flex-control-nav li { margin: 0 0 0 9px; float: left; zoom: 1; *display: inline; }
+.flex-control-nav li:first-child { margin: 0; }
+.flex-control-nav li a { width: 11px; height: 11px; display: block; background: url(https://jlsc-jo.com/images/control-nav.png) no-repeat 0 0; cursor: pointer; text-indent: -9999px; }
+.flex-control-nav li a:hover { background-position: 0 -12px; }
+.flex-control-nav li a.active { background-position: 0 -12px; cursor: default; }
